@@ -18,23 +18,15 @@ The system was originally designed around an HC-SR04/SRF04 ultrasonic distance s
 
 
 
-\## System Architecture
-
-
+## System Architecture
 
 ```mermaid
-
-flowchart LR
-
-&#x20;   A\[Analog Distance Input<br/>Potentiometer / HC-SR04] --> B\[ADC0808<br/>8-bit Conversion]
-
-&#x20;   B --> C\[AT89C51<br/>Microcontroller]
-
-&#x20;   C --> D\[LM016L LCD<br/>Live Distance Readout]
-
-&#x20;   C --> E\[Red LED<br/>Danger Zone]
-
-&#x20;   C --> F\[Yellow LED<br/>Warning Zone]
+graph LR
+    A[Analog Input] --> B[ADC0808 Converter]
+    B --> C[AT89C51 Microcontroller]
+    C --> D[LCD Display]
+    C --> E[Red LED Alert]
+    C --> F[Yellow LED Alert]
 
 !\[Circuit Schematic](Images/circuit-diagram.png)
 
