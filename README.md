@@ -36,5 +36,7 @@ flowchart LR
 
 &#x20;   C --> F\[Yellow LED<br/>Warning Zone]
 
+!\[Circuit Schematic](Images/circuit-diagram.png)
+
 
 
