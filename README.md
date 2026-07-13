@@ -26,7 +26,7 @@ graph LR
     B --> C[AT89C51 Microcontroller]
     C --> D[LCD Display]
     C --> E[Red LED Alert]
-    C --> F[Yellow LED Alert]
+    C --> F[Yellow LED Alert]```
 
 !\[Circuit Schematic](Images/circuit-diagram.png)
 
