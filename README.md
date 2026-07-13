@@ -18,7 +18,6 @@ graph LR
     C --> E[Red LED Alert]
     C --> F[Yellow LED Alert]
 
-
 !\[Circuit Schematic](Images/circuit-diagram.png)
 
 
