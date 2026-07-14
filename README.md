@@ -13,7 +13,8 @@ Deaf drivers cannot rely on auditory cues (horns, sirens, proximity beeps) that 
 3. **AT89C51:** Microcontroller processes thresholds and drives outputs.
 4. **LCD & LEDs:** Visual feedback via live distance display and tiered LED alerts.
 
-![Circuit Schematic](Images/circuit-diagram.png)
+![Circuit Schematic](circuit-diagram.png)
+
 
 ## Components Used
 
